@@ -460,7 +460,7 @@
             </p>
         </div>
     {/if}
-
+    <!--
     <p style="width: 100%; text-align: center;">
         <i>
             <LocalizedText
@@ -987,6 +987,9 @@
                         lang={currentLang}
                     />
                 </a>
+-->
+
+<p> No projects for now! </p>
             </div>
             <div class="footer-section">
                 <p>

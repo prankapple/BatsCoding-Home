@@ -25,12 +25,19 @@
             displayText = displayText.replace(/TurboWarp|Scratch/gm, (value) => {
                 let url = "";
                 switch (value) {
+                    case "Snail-IDE":
+                        url = "https://www.snail-ide.com/";
+                        break;
+                    case "PenguinMod":
+                        url = "https://penguinmod.com/";
+                        break;
                     case "TurboWarp":
                         url = "https://turbowarp.org/";
                         break;
                     case "Scratch":
                         url = "https://scratch.mit.edu/";
                         break;
+
                 }
                 return `<a href="${url}" target="_blank" style="color: inherit">${value}</a>`;
             });
